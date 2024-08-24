@@ -1,5 +1,5 @@
 {% set name = "glow-md" %}
-{% set version = "1.5.1" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/charmbracelet/glow/archive/v{{ version }}.tar.gz
-  sha256: b4ecf269b7c6447e19591b1d23f398ef2b38a6a75be68458390b42d3efc44b92
+  sha256: 55872e36c006e7e715b86283baf14add1f85b0a0304e867dd0d80e8d7afe49a8
 
 build:
   number: 0
