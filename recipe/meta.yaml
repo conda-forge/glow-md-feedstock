@@ -22,13 +22,13 @@ test:
     - glow --help
 
 about:
-  home: https://github.com/charmbracelet/{{ name }}
+  home: https://github.com/charmbracelet/glow
   license: MIT
   license_file:
     - LICENSE
     - license-files/
   summary: Render markdown on the CLI
-  dev_url: https://github.com/charmbracelet/{{ name }}
+  dev_url: https://github.com/charmbracelet/glow
 
 extra:
   recipe-maintainers:
