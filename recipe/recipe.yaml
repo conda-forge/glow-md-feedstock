@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 2.1.1
+  version: "2.1.2"
 
 package:
   name: glow-md
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/charmbracelet/glow/archive/v${{ version }}.tar.gz
-  sha256: f13e1d6be1ab4baf725a7fedc4cd240fc7e5c7276af2d92f199e590e1ef33967
+  sha256: 1b933139da1d08647bf5b3f112cab9548fdc2b40c056c7fa3d84d8706de5265a
 
 build:
   number: 0
